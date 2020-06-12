@@ -1,0 +1,39 @@
+.sidenav{
+  width: 210px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+ justify-content: space-between;
+ background-image: linear-gradient(40deg,#19d3ae,#0fcfec);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+.side-item{
+  display: flex;
+  flex-direction: column;
+}
+
+.side-item button{
+  margin: 10px 0px;
+  border: 0px;
+  color: white;
+  font-size: 16px;
+  background: none;
+  font-weight: 700;
+  letter-spacing: 0.91px;
+  text-align: left;
+  padding: 0px 15px;
+}
+.side-item button:hover{
+  padding: 0px 20px;
+  transition: all 0.5s ease;
+}
+.ml-6{
+    margin-left: 210px ;
+}
+@media screen and (max-width: 700px) {
+  .ml-6{
+      margin-left: 0px !important;
+}
+}

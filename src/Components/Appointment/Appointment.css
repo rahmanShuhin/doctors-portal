@@ -1,0 +1,47 @@
+.appointment{
+  background-image: url(../../images/background1.png);
+  min-height: 70vh;
+  background-position: center top;
+  background-size: cover;
+}
+.schedule h3{
+color: rgb(13, 202, 216);
+}
+.card{
+  box-shadow: 2px 2px 5px  lightgray;
+  border-radius: 0px;
+  border: 0px;
+}
+h2{
+  color: darkcyan;
+}
+.btn-main{
+  background: linear-gradient(to right,darkcyan,rgb(3, 179, 179));
+  color: white;
+  font-weight: 700;
+}
+.btn-main:hover{
+  opacity: 0.7;
+}
+.card h5{
+  color: darkcyan;
+
+}
+.form-box{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.form-box input{
+  border: 1px solid lightgray;
+  margin: 5px 0px;
+  padding: 5px 10px;
+  outline: thin;
+}
+.appoint-btn{
+  background-color: lightseagreen !important;
+  color: white;
+}
+.appoint-btn:hover{
+  opacity: 0.7;
+}
